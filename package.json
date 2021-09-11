@@ -10,6 +10,7 @@
   "license": "ISC",
   "homepage": "https://danbirt.github.io/blog_test",
   "dependencies": {
-    "gh-pages": "^3.2.3"
+    "gh-pages": "^3.2.3",
+    "wolfram-notebook-embedder": "^0.2.2"
   }
 }

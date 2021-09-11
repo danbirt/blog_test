@@ -10,6 +10,13 @@
 
 <body>
     <h1>Welcome to my website on github!</h1>
+    <div id="notebookContainer"></div>
 </body>
 
 </html>
+
+<script>
+    import WolframNotebookEmbedder from 'wolfram-notebook-embedder';
+    var url = "https://www.wolframcloud.com/obj/danbirt/Published/TestCloudDeploy.nb";
+    var embedding = WolframNotebookEmbedder.embed('url', document.getElementById('notebookContainer'));
+</script>
